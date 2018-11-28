@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>smartmirror</title>
+
+    <style>
+        /*公共部分样式*/
+        body {
+            font-family: 冬青黑体简体中文;
+
+        }
+        .bc{
+            padding: 10px;
+            width: 100%;
+            height: 560px;
+            /*background-color: gray;*/
+            background: url(backg.jpg)  ;
+            background-size:100% 100%;
+        }
+
+        img {
+            margin: 20px;
+            float: left;
+            width: auto;
+            height: 60px;
+        }
+
+        /*welcome 部分的样式*/
+        .welcom {
+            margin: 10px 10px 10px 10px;
+            padding: 10px 0 0 0;
+            width: 400px;
+            height: 150px;
+            background:#4d5c68;
+        }
+
+        .welcom .hello {
+            /*上右下左边距*/
+            margin: 10px 0 10px 20px;
+            font-size: 20px;
+            color: #ecb449;
+        }
+
+        .welcom .date {
+            color: white;
+            margin: 20px;
+        }
+
+        .welcom .clock {
+            color: #ecb449;
+            font-size: 30px;
+        }
+
+        /*mail部分的样式 */
+        .mail {
+            margin: 20px 10px 10px 10px;
+            padding: 10px 0 0 0;
+            width: 400px;
+            height: 150px;
+            background:#4d5c68;
+        }
+
+        .mail .hello {
+            /*上右下左边距*/
+            margin: 10px 0 10px 20px;
+            font-size: 20px;
+            color: #ecb449;
+        }
+
+        .mail .message {
+            color: white;
+            margin: 20px;
+        }
+
+        .mail .clock {
+            color: orange;
+            font-size: 30px;
+        }
+
+        /*NEWS部分的样式*/
+
+        .news {
+            margin: 20px 10px 10px 10px;
+            padding: 10px 0 0 0;
+            width: 400px;
+            height: 150px;
+            background:#4d5c68;
+        }
+
+        .news .hello {
+            /*上右下左边距*/
+            margin: 10px 0 10px 20px;
+            font-size: 20px;
+            color: #ecb449;
+        }
+
+        .news .content {
+            color: white;
+            margin: 10px;
+        }
+
+        .rightComponent {
+            margin: 5px 10px 10px 10px;
+            /*background: gray;*/
+            width: 200px;
+            height: 160px;
+            position: absolute;
+            right: 10px;
+            text-align: center;
+        }
+
+        .rightComponent img {
+            margin: 10px 35px 20px 35px;
+            width: 80px;
+            height: 80px;
+        }
+
+        /*weather部分样式*/
+        .rightComponent .content {
+            color: white;
+        }
+
+        .rightComponent .indoor {
+            color: #ecb449;
+        }
+    </style>
+</head>
+<body>
+
+<div class="bc">
+    <div class="rightComponent">
+        <img src="sun.png">
+        <div class="content">
+            Plymouth,UK  10℃
+        </div>
+    </div>
+    <div class="welcom">
+        <div class="hello">
+            Welcome to Smart Mirror
+        </div>
+        <img src="clock.png">
+
+        <div class="date">
+            Wednesday,November 03,2018
+        </div>
+        <div class="clock">
+            07:15AM
+        </div>
+    </div>
+
+
+    <div class="rightComponent">
+        <div class="indoor">
+            INDOOR CLIMATE
+        </div>
+        <img src="temp.png"style="width: 100px">
+        <div class="content">
+            Temperature
+        </div>
+    </div>
+    <div class="mail">
+        <div class="hello">
+            MAIL
+        </div>
+        <img src="mail.png">
+
+        <div class="message">
+            See you at 12 tomorrow
+        </div>
+        <div class="message">
+            i had a good time today
+        </div>
+    </div>
+
+
+    <div class="rightComponent">
+        <img src="humi.png" style="width: 100px">
+        <div class="content">
+            Humidity
+        </div>
+    </div>
+    <div class="news">
+        <div class="hello">
+            NEWS
+        </div>
+        <img src="book.png">
+
+        <div class="content">
+            Michelle Obama reveals daughters were conceived by IVF
+        </div>
+        <div class="content">
+            Ryanair plane seized by French authorities in cash row
+        </div>
+    </div>
+</div>
+</body>
+</html>
