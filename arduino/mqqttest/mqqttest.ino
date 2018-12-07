@@ -4,7 +4,7 @@
 #include "dht.h"
 #define dht_dpin 2 // Analog Pin sensor is connected to
 
-
+//Sensor
 dht DHT;
 // Update these with values suitable for your network.
 byte mac[] = { 0xDE, 0xED, 0xBA, 0xFE, 0xFE, 0xED };
@@ -56,7 +56,7 @@ void reconnect() {
 
 void setup() {
   Serial.begin(9600);
-
+// checks to see if wifi shield is connected
   if (WiFi.status() == WL_NO_SHIELD) {
     Serial.println("WiFi shield not present");
     while (true);
@@ -75,7 +75,7 @@ void setup() {
 }
 
 void loop() {
-
+// reading the temperature and humidity sensor
    DHT.read11(dht_dpin);
   if (client.connect("ArduinoClient1")) {
 
@@ -87,7 +87,7 @@ int temp = DHT.temperature;
     
    
     
-    delay(5000);//Wait 5 seconds before accessing sensor again.
+    delay(1000);//Wait 5 seconds before accessing sensor again.
  
 
     String pubString = "" + String(temp);
