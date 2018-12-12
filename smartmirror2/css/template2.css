@@ -1,0 +1,52 @@
+
+body {
+    font-family: Chalkduster;
+    background-color: black;
+}
+
+@font-face {
+    font-family:'Chalkduster';
+    src: url(../font/Chalkduster.ttf);
+}
+p {
+    color: #fff;
+    font-size: 18px;
+}
+.icon p{
+    width: 84px;
+    text-align:center;
+    margin: 0 auto;
+}
+
+.txt{
+    margin-left: 120px;
+    
+}
+.little{
+    float: right;
+    margin-right: 80px;
+}
+.little p{
+    font-size: 20px;
+    margin: 0;
+
+}
+#littleImg{
+    width: 32px;
+    height: 32px;
+    margin: 18px;
+}
+
+
+.health{
+    float: left;
+    width: 85px;
+    margin: 10px;
+    margin-left: 60px;  
+}
+
+.health p{
+    width: 84px;
+    text-align:center;
+    margin: 0 auto;
+}

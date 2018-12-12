@@ -1,0 +1,65 @@
+/*公共部分样式*/
+
+body {
+    font-family: 冬青黑体简体中文;
+    background-color: #000;
+}
+.chenge{
+    width: 100%;
+    background-color: #000;
+    height: 30px;
+}
+
+a{
+    color: #fff;
+    /* background: #555; */
+    margin: 20px;
+    margin-top : 20px; 
+    size: 28px;
+}
+
+.bc {
+    padding: 10px;
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+}
+
+img {
+    height: 85px;
+}
+
+li {
+    color: #fff;
+    width: 300px;
+}
+
+h5{
+    color: white;
+    font-size: 28px;
+}
+
+
+.left{
+    width: 500px;
+    height: 100%;
+    float: left;
+}
+
+.right{
+    width: 500px;
+    height: 100%;
+    float: right;
+    align-content: right;
+}
+
+.row{
+    width: 560px;
+    height: 250px;
+
+}
+.icon{
+    float: left;
+    margin: 10px;
+    width: 85px;
+}

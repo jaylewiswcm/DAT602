@@ -1,0 +1,24 @@
+
+body{
+    font-size: 20px;
+}
+
+p {
+    color: #fff;
+}
+
+.icon img{
+    height: 40px;
+    float: left;
+}
+
+.txt{
+    margin-left: 90px;
+}
+.rightComponent {
+    margin: 30px 10px 30px 10px;
+
+    position: absolute;
+    right: 10px;
+    text-align: right;
+}

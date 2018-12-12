@@ -1,0 +1,122 @@
+
+img {
+    margin: 40px;
+    float: left;
+    width: auto;
+    height: 85px;
+}
+/*welcome 部分的样式*/
+.welcom {
+    margin: 40px 10px 40px 10px;
+    padding: 10px 0 0 0;
+    width: 700px;
+    height: 190px;
+    background: #131313;
+}
+
+.welcom .hello {
+    /*上右下左边距*/
+    margin: 10px 0 10px 20px;
+    font-size: 25px;
+    color: white;
+}
+
+.welcom .date {
+    color: white;
+    font-size: 20px;
+    margin: 25px;
+}
+
+.welcom .clock {
+    color: white;
+    font-size: 37px;
+}
+
+/*mail部分的样式 */
+.mail {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 0 0 0;
+    width: 700px;
+    height: 250px;
+    background: #131313;
+}
+
+.mail .hello {
+    /*上右下左边距*/
+    margin: 15px 0 15px 20px;
+    font-size: 25px;
+    color: white;
+}
+
+.mail .message {
+    color: white;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.mail .name {
+    color: white;
+    margin: 0;
+    font-size: 20px;
+}
+
+.mail .clock {
+    color:white;
+    font-size: 30px;
+}
+
+/*NEWS部分的样式*/
+
+.news {
+    margin: 40px 10px 40px 10px;
+    padding: 10px 0 0 0;
+    width: 700px;
+    height: 250px;
+    background: #131313;
+}
+
+.news .hello {
+    /*上右下左边距*/
+    margin: 10px 0 10px 20px;
+    font-size: 25px;
+    color: white;
+}
+
+.news .content {
+    color: white;
+    margin: 10px;
+    font-size: 21px;
+}
+
+.rightComponent {
+    margin: 30px 10px 30px 10px;
+
+    position: absolute;
+    right: 10px;
+    text-align: center;
+}
+
+.rightComponent img {
+    margin: 30px 30px 30px 30px;
+    width: 140px;
+    height: 130px;
+}
+
+/*weather部分样式*/
+.rightComponent .content {
+    position: relative;
+    color: white;
+    font-size: 21px;
+    top: 10px;
+}
+
+.rightComponent .indoor {
+    color: white;
+    font-size: 21px;
+}
+hr {
+    width: 200px;
+    position: absolute;
+    left: 0px;
+    top: 180px;
+}
