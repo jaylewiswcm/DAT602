@@ -1,0 +1,85 @@
+html {
+  background: black;
+  font-family: montserrat;
+  color: white;
+  width: 600px;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 550px;
+  height: 350px;
+
+  margin-left: 60%;
+  margin-top: 10px;
+  position: absolute;
+  z-index: 5;
+}
+
+.room-temp {
+  position: absolute;
+  float: right;
+  text-align: right;
+  margin-left: 75%;
+  z-index: 10;
+}
+
+.room {
+  font-weight: 500;
+  font-size: 23px;
+}
+.room-line {
+  position: absolute;
+  margin-left: -100%;
+  margin-top: -9%;
+}
+
+.temp-humi {
+  position: absolute;
+  float: right;
+  text-align: right;
+  margin-left: 80%;
+  z-index: 10;
+  margin-top: 100px;
+}
+
+#data {
+  text-align: center;
+}
+
+.temp {
+  font-weight: 300;
+  font-size: 19px;
+  margin-left: 140px;
+
+  text-align: center;
+}
+.humid {
+  font-weight: 300;
+  font-size: 19px;
+}
+
+.temp-line {
+  position: absolute;
+  margin-left: -65px;
+  margin-top: -9px;
+  width: 94px;
+  z-index: 12;
+}
+
+.date-con {
+  position: absolute;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+#location-con {
+  position: absolute;
+  margin-left: 80%;
+  margin-top: 630px;
+}
+.location {
+  font-weight: 400;
+  font-size: 20px;
+}
