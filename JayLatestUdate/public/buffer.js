@@ -293,7 +293,7 @@ function animate() {
   requestAnimationFrame(animate);
   // console.log(incomingData);
 
-  counter();
+  // counter();
 
   // render();
   stats.update();

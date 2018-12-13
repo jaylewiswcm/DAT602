@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>MagicMirror</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+
+<body onload="startTime()">
+  <!-- <h1 class="title">Hello</h1> -->
+
+  <div class="date-con">
+    <h3 id="date">
+      </h1>
+      <h1 id="time">
+        </h2>
+  </div>
+
+  <div class="left-corner">
+    <h1 class="room">Living room</h1>
+
+
+    <div class="temp-con">
+      <h2 class="temp" id="data"></h2>
+      <!-- <h2 class="temp">24°C</h2> -->
+    </div>
+
+    <div id="container"></div>
+  </div>
+
+  <div id="feed-con">
+    <h1 id="feed-title">Feed</h1>
+    <table>
+      <tr>
+        <th>Jimmy liked your post</th>
+      </tr>
+      <tr>
+        <td>Lorem Ipsum dolor sit amet, consectetur</td>
+      </tr>
+      <tr>
+        <th>Laura posted a photo</th>
+      </tr>
+      <tr>
+        <td>Lorem Ipsum dolor sit amet, consectetur</td>
+      </tr>
+      <tr>
+        <th>Dave shared a post</th>
+      </tr>
+      <tr>
+        <td>Lorem Ipsum dolor sit amet, consectetur</td>
+      </tr>
+    </table>
+  </div>
+
+
+  <!-- <div id="location-con"> 
+      <h1 class="location">Plymouth, UK</h1>
+    </div> -->
+
+
+
+  <script src="/build/three.js"></script>
+
+  <script src="/js/WebGL.js"></script>
+  <script src="/js/libs/stats.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+  <!--
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.16/socket.io.min.js"></script>
+    -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+  <!--
+      <script src="mqtt://broker.i-dat.org:80//socket.io/socket.io.js"></script>
+    -->
+
+  <script src="/buffer.js"></script>
+  <script src="data.js"></script>
+  <script src="date.js"></script>
+</body>
+
+</html>

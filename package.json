@@ -1,7 +1,7 @@
 {
   "name": "iot-network-vis",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is the readme file for our SmartMirror project.",
   "main": "server.js",
   "author": "",
   "license": "ISC",
@@ -16,5 +16,16 @@
   },
   "engines": {
     "node": "6.2.0"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayLewis1/DAT602.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JayLewis1/DAT602/issues"
+  },
+  "homepage": "https://github.com/JayLewis1/DAT602#readme"
 }
