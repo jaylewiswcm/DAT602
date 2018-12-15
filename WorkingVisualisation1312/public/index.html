@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< HEAD
 
 <head>
   <title>MagicMirror</title>
@@ -82,3 +83,58 @@
 </body>
 
 </html>
+=======
+  <head>
+    <title>MagicMirror</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  </head>
+  <body onload="startTime()">
+    <!-- <h1 class="title">Hello</h1> -->
+
+    <div class="date-con">
+      <h3 id="date"></h1>
+      <h1 id="time"></h2>
+
+    </div>
+    <div class="room-temp"><h1 class="room">Living room</h1>
+    <img class="room-line" src="assets/Line.png"></img>
+    </div>
+    <div class="temp-humi">
+      <h2 class="temp" id="data">
+      </h2>
+      <img class="temp-line" src="assets/little-line.png"></img>
+      <h2 class="humid">66%</h2>
+    </div>
+    <div id="container"></div>
+    <!-- <div id="location-con"> 
+      <h1 class="location">Plymouth, UK</h1>
+    </div> -->
+
+    
+
+    <script src="/build/three.js"></script>
+
+    <script src="/js/WebGL.js"></script>
+    <script src="/js/libs/stats.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  
+    <!--
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.16/socket.io.min.js"></script>
+    -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+    <!--
+      <script src="mqtt://broker.i-dat.org:80//socket.io/socket.io.js"></script>
+    -->
+
+    <script src="/buffer.js"></script>
+    <script src="data.js"></script>
+    <script src="date.js"></script>
+  </body>
+</html>
+>>>>>>> 5d68635debb1471c21b720aca7e7fe67f70982e5
