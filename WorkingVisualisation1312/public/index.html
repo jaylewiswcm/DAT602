@@ -31,31 +31,24 @@
     <div id="container"></div>
   </div>
 
-  <div id="feed-con">
-    <div id="feed-wrapper">
-    <h1 id="feed-title">Feed</h1>
-    <table>
-      <tr>
-        <th>Jimmy liked your post</th>
-      </tr>
-      <tr>
-        <td>Lorem Ipsum dolor sit amet, consectetur</td>
-      </tr>
-      <tr>
-        <th>Laura posted a photo</th>
-      </tr>
-      <tr>
-        <td>Lorem Ipsum dolor sit amet, consectetur</td>
-      </tr>
-      <tr>
-        <th>Dave shared a post</th>
-      </tr>
-      <tr>
-        <td>Lorem Ipsum dolor sit amet, consectetur</td>
-      </tr>
-    </table>
+  <div id="newsFeed">
+    <h2 id='newsHeadline'>News</h2>
+    <ul id="newsData"></ul>
   </div>
+
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+      </ul>
+    </div>
+ 
+  
+
   </div>
+  
 
 
   <div id="location-con"> 
@@ -69,6 +62,9 @@
   <script src="/js/WebGL.js"></script>
   <script src="/js/libs/stats.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+ 
+
+  <script src="news-api/news.js"></script>
 
   <!--
       <script src="http://cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.16/socket.io.min.js"></script>
@@ -81,6 +77,8 @@
   <script src="/buffer.js"></script>
   <script src="data.js"></script>
   <script src="date.js"></script>
+  <script src="slider.js"></script>
+
 </body>
 
 </html>
