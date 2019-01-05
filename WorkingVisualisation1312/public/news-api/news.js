@@ -24,10 +24,12 @@ function firstSetData() {
           newsData.insertAdjacentHTML(
             "beforeend",
             "<div class='mySlides fade'>" +
+              "<h1 id='sourceName'>" +
+              element.author +
+              "</h1>" +
               "<li id='headline'>" +
               element.title +
               "</li> " +
-              "</br>" +
               "<li id='description'>" +
               element.description +
               "</li>" +
@@ -38,43 +40,4 @@ function firstSetData() {
     });
   });
 }
-// function secondSetData() {
-//   $(document).ready(function() {
-//     $.ajax({
-//       url: url,
-//       dataType: "json",
-//       error: function() {
-//         console.log("JSON FAILED for data");
-//       },
-//       success: function(response) {
-//         var newsData = document.getElementById("newsData");
-
-//         response.articles.slice(3, 6).forEach(function(element) {
-//           newsData.insertAdjacentHTML(
-//             "beforeend",
-//             "<div class='mySlides fade'>" +
-//               "<li id='headline'>" +
-//               element.title +
-//               "</li> " +
-//               "</br>" +
-//               "<li id='description'>" +
-//               element.description +
-//               "</li>" +
-//               "</div>"
-//           );
-//         });
-//       }
-//     });
-//   });
-// }
-
 firstSetData();
-
-// var timer1 = setInterval(firstSetData, 3000);
-// var timer2 = setInterval(secondSetData, 1000);
-
-// if (called == false) {
-//   timer1;
-// } else {
-//   timer2;
-// }

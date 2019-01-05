@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
 
 <body onload="startTime()">
@@ -31,23 +32,15 @@
     <div id="container"></div>
   </div>
 
-  <div id="newsFeed">
-    <h2 id='newsHeadline'>News</h2>
+  <div id="newsFeed" >
+    <!-- <h2 id='newsHeadline'>News</h2> -->
+    <div class="mySlides fade">
+      </div>
     <ul id="newsData"></ul>
   </div>
 
-  <div class="slideshow-container">
-    <div class="mySlides fade">
-      <ul>
-        <li>one</li>
-        <li>two</li>
-        <li>three</li>
-      </ul>
-    </div>
- 
   
 
-  </div>
   
 
 
@@ -61,23 +54,19 @@
 
   <script src="/js/WebGL.js"></script>
   <script src="/js/libs/stats.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
  
 
-  <script src="news-api/news.js"></script>
 
-  <!--
-      <script src="http://cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.16/socket.io.min.js"></script>
-    -->
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
-  <!--
-      <script src="mqtt://broker.i-dat.org:80//socket.io/socket.io.js"></script>
-    -->
 
   <script src="/buffer.js"></script>
   <script src="data.js"></script>
   <script src="date.js"></script>
+  <script src="news-api/news.js"></script>
   <script src="slider.js"></script>
+
 
 </body>
 
