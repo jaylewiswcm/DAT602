@@ -39,14 +39,17 @@ html {
   width: 130px;
   /* margin-top: -10px; */
 }
+
 .room-line {
   position: absolute;
   margin-top: -13px;
 }
+
 .temp-con {
   margin-left: 150px;
   margin-top: 120px;
 }
+
 .temp {
   font-weight: 300;
   font-size: 15px;
@@ -68,21 +71,36 @@ html {
   font-size: 15px;
   margin-bottom: -10px;
 }
+
 #time {
   font-size: 18px;
 }
 
-#location-con {
+.weather-con {
   position: absolute;
   /* margin-left: 80%;
   margin-top: 630px; */
-  bottom: 25px;
+  bottom: 10px;
   right: 25px;
 }
+
+.weather-temp {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.location-temp {
+  position: absolute;
+  right: 40px;
+  font-weight: 300;
+  font-size: 15px;
+}
+
 .location {
   font-weight: 400;
   font-size: 18px;
 }
+
 #feed-con {
   position: absolute;
   bottom: 25px;
@@ -106,6 +124,7 @@ table {
   margin-left: 30px;
   margin-top: 0px;
 }
+
 th {
   font-weight: 600;
   padding: 3px;
@@ -118,25 +137,30 @@ td {
 }
 
 #newsHeadline {
+  position: absolute;
   font-size: 18px;
   font-weight: 300;
   margin-left: 38px;
-  margin-bottom: -10px;
+  margin-bottom: 30px;
   padding-bottom: 1px;
   border-bottom: 1px solid white;
   width: 55px;
 }
 
 #newsFeed {
+  position: absolute;
   padding: 0;
   width: 300px;
   height: 100px;
 
-  margin-top: 500px;
+  /* margin-top: 500px;
   margin-left: -20px;
-  margin-bottom: 0px;
+  margin-bottom: 0px; */
+  left: 0;
+  bottom: 40px;
   padding-bottom: -0px;
 }
+
 #headline {
   /* position: absolute; */
   list-style-type: none;
@@ -145,6 +169,7 @@ td {
   font-weight: 800;
   width: 400px;
 }
+
 #description {
   list-style-type: none;
   font-size: 12px;
@@ -188,6 +213,7 @@ img {
   from {
     opacity: 0.4;
   }
+
   to {
     opacity: 1;
   }
@@ -197,6 +223,7 @@ img {
   from {
     opacity: 0.4;
   }
+
   to {
     opacity: 1;
   }
