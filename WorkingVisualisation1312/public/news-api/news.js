@@ -10,6 +10,9 @@ fetch(req).then(function(response) {
 
 var called = "false";
 
+firstSetData();
+setInterval(firstSetData,900000);
+
 function firstSetData() {
   $(document).ready(function() {
     $.ajax({
@@ -40,4 +43,4 @@ function firstSetData() {
     });
   });
 }
-firstSetData();
+

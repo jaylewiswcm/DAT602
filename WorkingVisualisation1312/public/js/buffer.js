@@ -206,14 +206,14 @@ setInterval(function counter() {
 
     color.setRGB(vx, vy, vz);
 
-    if (incomingData < 19) {
+    if (incomingData <= 20) {
       colors.push(color.r, color.g, 255);
       colors.push(color.r, color.g, 100);
       colors.push(0, color.g, 255);
-    } else if (incomingData >= 19 && incomingData <= 22) {
+    } else if (incomingData > 20 && incomingData <= 22) {
       colors.push(color.r, color.g, color.b);
       colors.push(color.r, color.g, color.b);
-      colors.push(200, color.g, 150);
+      colors.push(200, 100, color.b);
     } else {
       colors.push(100, color.g, color.b);
       colors.push(color.r, color.g, color.b);

@@ -6,6 +6,7 @@ html {
   width: 600px;
   margin: 0;
   padding: 0;
+ 
 }
 
 .left-corner {
@@ -14,7 +15,7 @@ html {
 
   /* border: 2px dashed red; */
   /* margin-left: 1200px; */
-  margin-top: -59px;
+  margin-top: -69px;
 
   position: absolute;
   right: 0;
@@ -80,7 +81,7 @@ html {
   position: absolute;
   /* margin-left: 80%;
   margin-top: 630px; */
-  bottom: 10px;
+  bottom: 3px;
   right: 25px;
 }
 
@@ -129,7 +130,7 @@ html {
 
 #feed-con {
   position: absolute;
-  bottom: 25px;
+  bottom: 5px;
 
   left: 0;
 }
@@ -184,7 +185,7 @@ td {
   margin-bottom: 0px; */
   left: 0;
   bottom: 40px;
-  padding-bottom: -0px;
+  padding-bottom: -10px;
 }
 
 #headline {
