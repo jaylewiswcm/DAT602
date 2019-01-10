@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>MagicMirror</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+
+<body onload="startTime()">
+  <!-- <h1 class="title">Hello</h1> -->
+
+  <div class="date-con">
+    <h3 id="date">
+      </h1>
+      <h1 id="time">
+        </h2>
+  </div>
+
+  <div class="left-corner">
+    <h1 class="room">Living room</h1>
+
+
+    <div class="temp-con">
+      <h2 class="temp" id="data"></h2>
+      <!-- <h2 class="temp">24°C</h2> -->
+    </div>
+
+    <div id="container"></div>
+  </div>
+
+  <div id="newsFeed" >
+    <!-- <h2 id='newsHeadline'>News</h2> -->
+    <div class="mySlides fade">
+      </div>
+    <ul id="newsData"></ul>
+  </div>
+
+  
+
+  
+
+
+  <!-- <div id="location-con"> 
+      <h1 class="location">Plymouth, UK</h1>
+    </div> -->
+
+ <div class="weather-con">
+   <h2 class="location-temp"></h2>
+   <h2 class="weather-temp"></h2>
+   <img class="iconpic"></img>
+   <h2 class="sunset-rise"></h2>
+ </div>
+
+  <script src="/build/three.js"></script>
+
+  <script src="/js/WebGL.js"></script>
+  <script src="/js/libs/stats.min.js"></script>
+
+ 
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+
+  <script src="js/buffer.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/date.js"></script>
+  <script src="news-api/news.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/weather.js"></script>
+
+
+</body>
+
+</html>

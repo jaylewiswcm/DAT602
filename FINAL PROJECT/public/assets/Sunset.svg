@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 95.912 76.642">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="Sunset" transform="translate(-572.483 -516.302)">
+    <path id="Path_16" data-name="Path 16" class="cls-1" d="M572.483,457.55h95.912" transform="translate(0 108)"/>
+    <path id="Path_13" data-name="Path 13" class="cls-2" d="M596.353,452.459h49.123s-2.153-23.416-24.738-23.165S596.353,452.459,596.353,452.459Z" transform="translate(0 108)"/>
+    <path id="Path_14" data-name="Path 14" class="cls-2" d="M593.88,447.627a19.258,19.258,0,0,1,1.278-5.187,15.438,15.438,0,0,1,2.81-4.127l-20.834-3.1Z" transform="translate(0 108)"/>
+    <path id="Path_9" data-name="Path 9" class="cls-2" d="M593.88,447.627a19.258,19.258,0,0,1,1.278-5.187,15.438,15.438,0,0,1,2.81-4.127l-20.834-3.1Z" transform="matrix(0.719, 0.695, -0.695, 0.719, 489.537, -196.258)"/>
+    <path id="Path_10" data-name="Path 10" class="cls-2" d="M593.88,447.627a19.258,19.258,0,0,1,1.278-5.187,15.438,15.438,0,0,1,2.81-4.127l-20.834-3.1Z" transform="translate(1053.195 -74.18) rotate(88)"/>
+    <path id="Path_15" data-name="Path 15" class="cls-2" d="M593.88,447.627a19.258,19.258,0,0,1,1.278-5.187,15.438,15.438,0,0,1,2.81-4.127l-20.834-3.1Z" transform="translate(1381.834 455.801) rotate(136)"/>
+    <path id="Path_18" data-name="Path 18" class="cls-1" d="M620.914,413.948V394.428" transform="translate(1241.765 984.415) rotate(180)"/>
+    <path id="Path_17" data-name="Path 17" class="cls-2" d="M616.033,401.851l4.9-8.384,4.8,8.384" transform="translate(1241.765 984.415) rotate(180)"/>
+  </g>
+</svg>
